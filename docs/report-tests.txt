@@ -1,0 +1,6 @@
+test_untrusted_names_are_encoded_and_roundtrip_as_data (test_report.ReportTests.test_untrusted_names_are_encoded_and_roundtrip_as_data) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK

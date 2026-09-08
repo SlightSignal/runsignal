@@ -1,0 +1,6 @@
+test_windows_relative_paths_produce_a_portable_runnable_zipapp (test_release.ReleaseTests.test_windows_relative_paths_produce_a_portable_runnable_zipapp) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.082s
+
+OK

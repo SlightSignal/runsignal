@@ -1,0 +1,80 @@
+{
+  "benchmark": "benchmark.json",
+  "browser_tests": {
+    "driver": "tests/browser_smoke.py",
+    "note": "Interactions checked before the display-only synthetic commit-ID change; final dashboard screenshot refreshed and inspected.",
+    "passed": 10,
+    "source": "browser-checks.png"
+  },
+  "core_tests": {
+    "passed": 26,
+    "reviewer": "independent agent",
+    "source": "core-tests.txt"
+  },
+  "date": "2026-09-08",
+  "demo": {
+    "commit_ids": "synthetic SHA256-derived identifiers; changed from leading-zero IDs for readable labels",
+    "incomplete_runs": 1,
+    "mixed_tests": 1,
+    "new_failure_events": 6,
+    "observations": 950,
+    "runs": 24,
+    "tests": 40
+  },
+  "html_embedding_tests": {
+    "passed": 1,
+    "source": "report-tests.txt"
+  },
+  "python": "3.14.7",
+  "release_tests": {
+    "note": "Windows relative paths simulated on Linux; isolated archive startup verified.",
+    "passed": 1,
+    "source": "release-tests.txt"
+  },
+  "source_hashes": {
+    ".github/workflows/ci.yml": "a2b877f0f7d23853e55fe402e8c574286f1213ef9690f64199b4739b3ded25d6",
+    ".gitignore": "73218fa22d2c9a726fd64d646858bdf63982b8d867533b080d48027af080977d",
+    "CONTRIBUTING.md": "63897825c1928463ddeb8d80e8f048491d5dedf7bc1373058bd92f367d13fbb1",
+    "LICENSE": "0b2d717225ca3417294ea190bdfca44520f93251d317bff100d26668bfb788d6",
+    "README.md": "a701536eb32bafa1eddd481bad1ffc86fb057167b2a16c0cf65064c997e8a699",
+    "docs/DATA-MODEL.md": "3a6a802365090890229dc7fd0b9ccb415ec672af4b74d8c915250da0764c59b8",
+    "docs/RESEARCH.md": "4a6ad77e275df86337d9da2edbd854cea061a451b19877c43f0968137d700f9c",
+    "docs/ROADMAP.md": "05c17cf880d7e3272cc3f0ad84a27c8a6a9f871daab8885889496b88f25a8505",
+    "docs/VERIFICATION.md": "1fbb75f350231e36a1aaef6b8f8e7241795c00f2c348422a2c4700ce8fac6ffe",
+    "docs/benchmark.json": "56da5ca614c0081cfa2ebf4611d5ff363f500a6f198abe668e704aa4c7d33884",
+    "docs/browser-checks.png": "a1d24685708e2748ec5534da30f9cd6d773dde87911537cdca91848c6d4de138",
+    "docs/core-tests.txt": "075142359700a67087a7b4d379e590c35c99c32c96d6539af261b3d45f7b6af2",
+    "docs/demo/index.html": "83cdbf88de24f73c8a66ebcfa7eb25b4cc80551da2dbd28a1887a65673da721e",
+    "docs/demo/report.json": "fe34900e7651638e3b881204135ff3bef09e9653809e0f1ec25e649459950904",
+    "docs/preview.png": "13f267183a467d833a3aef28e322be6f82f02f0a4a1440c9d26721f0162f7315",
+    "docs/release-tests.txt": "f145ed0f8f88412ae76dafb40815c3ce2af47d57d2f8f7dfdf6a1d4b5ab62e7c",
+    "docs/report-tests.txt": "0f4da1ca30a680fc9ef2ccd39844805a391378d97bacadbd720ec00430acd37f",
+    "examples/make_demo.py": "0d61469ddedef80ea65915dce268ec97216688c3cbc76f37bbf99e80d0fd486f",
+    "pyproject.toml": "c8866784ea483e84011e7799c0dd41788fb7ad4acb91f251718894b005304d46",
+    "runsignal/__init__.py": "7f33a0430af5073901cb3d5348955f3830ee452dfc7694f0d88426c965f27107",
+    "runsignal/__main__.py": "a034deb8b664d799a687e8868ce44b4c9a1b7973c5b02a20eb49fe8236e32134",
+    "runsignal/analysis.py": "93a7c07a25f07c3f05a97e65389375a2cdae0495b82f6d6f3c3d047bdd5c804d",
+    "runsignal/ingest.py": "8cbea41a8e268a6b086c477c67b6b94d8319cb68b8d67635ee038a923038bbb9",
+    "runsignal/report.html": "631c4f0540095a4080a99fcc7ce01e95388687de584f43ac699c45e34168da2f",
+    "runsignal/report.py": "e20a16f34525e5cf4dc37cd00290550a1d50ba748879bcdbb0982818d70691d6",
+    "tests/browser_smoke.py": "15c616e797bb929d7f5d89990de2d230b197ce7dea77a16e308232b5cfc36eff",
+    "tests/test_core.py": "325c892efe0b6c8c5a713067953c3578ef03fe1ffc7ec2dd6e77e7b890828b5f",
+    "tests/test_release.py": "73323ba662ed8e603b997aa6d6092f8db46eff096e48fd131faf1d0b5a182485",
+    "tests/test_report.py": "7f501609e122db1ce82520fa52bbe4327791551c6855c73fdac690d32f2c6157",
+    "tools/benchmark.py": "2112326b5d5f0dd9f31ddd9e0a830a7be1f9146af6b7f20cb59e5200e620ba3b",
+    "tools/build_release.py": "28e9b3e725a977c36847a5e7f0e1283b833142a06df83ad5d8e54ea947500d60"
+  },
+  "wheel": {
+    "built_offline": true,
+    "bytes": 19789,
+    "report_template_present": true,
+    "sha256": "aaf80bbf4e695c6463f6d03b217ebf36e159816676736abddc8e4b9b1f0e36bf",
+    "zip_integrity_ok": true
+  },
+  "zipapp": {
+    "bytes": 14496,
+    "error_exit_code": 2,
+    "html_byte_identical_to_source_cli": true,
+    "sha256": "a91b64e91b7c391bd7de0ff7467ad4f13ce7e6ae58b3a98a5b526d063a4f1ed0"
+  }
+}
